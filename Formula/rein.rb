@@ -5,27 +5,27 @@
 class Rein < Formula
   desc "Remote-control your local AI coding harnesses from your phone"
   homepage "https://rein.build"
-  version "0.1.15"
+  version "0.1.16"
 
   on_macos do
     on_arm do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.15/rein-darwin-arm64.tar.gz"
-      sha256 "df1ed1acc47244279ecc9d4b0641c3f743f426e5a16d2f147efab3d5f5a4ba61"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.16/rein-darwin-arm64.tar.gz"
+      sha256 "31978d59c78f8921ec23363f62e57d7da571cc9f14bb8a508db933419e640182"
     end
     on_intel do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.15/rein-darwin-x64.tar.gz"
-      sha256 "dd88dd2045e590aec3897020d2f06d91ccebf826311c58bb6126c8a0e29045c6"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.16/rein-darwin-x64.tar.gz"
+      sha256 "2eb8692d1298938d9a56b69a3c561ef2c6bbb83b2328df26729e26a390fde60c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.15/rein-linux-arm64.tar.gz"
-      sha256 "8c4a985fa849d207715a88ae3120addeb7e639031c4b63684f7f49acffbe3785"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.16/rein-linux-arm64.tar.gz"
+      sha256 "08b37e2a6da192e3f263e6d0570294ad3bf7c8e69912d3e8b499dcb48c6510d3"
     end
     on_intel do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.15/rein-linux-x64.tar.gz"
-      sha256 "51cead74b3defd495865972a9be5d767ec4bdfabe0bb74874abe311377059031"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.16/rein-linux-x64.tar.gz"
+      sha256 "1c382c159071ce1460939b3829478b6a75d565ffc0fcd40a4d5d626cf1b351a0"
     end
   end
 
@@ -52,7 +52,7 @@ class Rein < Formula
       Pair with the Rein app:
         rein login        # link this machine to your account
         rein start        # or: brew services start rein
-        rein token        # show the pairing QR / code
+        rein setup        # show the pairing QR / code
 
       Upgrades are managed by Homebrew — run 'brew upgrade rein'.
       (The bundled 'rein update' is disabled for Homebrew installs.)
