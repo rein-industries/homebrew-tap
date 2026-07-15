@@ -5,27 +5,27 @@
 class Rein < Formula
   desc "Remote-control your local AI coding harnesses from your phone"
   homepage "https://rein.build"
-  version "0.1.40"
+  version "0.1.41"
 
   on_macos do
     on_arm do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.40/rein-darwin-arm64.tar.gz"
-      sha256 "026be1093920a7248067c546666604fd2d8449e7394f904a7442dbaf30b5deaa"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.41/rein-darwin-arm64.tar.gz"
+      sha256 "5df676989e4db51a00e9244047bb107718d4af29c5dc403279244bc6f2834343"
     end
     on_intel do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.40/rein-darwin-x64.tar.gz"
-      sha256 "be764aba0e1431aefe30dc0601a6e6bdfde3f3a0bd93fa4f1753fe99b1512e5e"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.41/rein-darwin-x64.tar.gz"
+      sha256 "bdbfc6a9446049c913f7f32091384ee8333c270914ef007ac3c58de4d75144c9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.40/rein-linux-arm64.tar.gz"
-      sha256 "f8e70212726f84fdfd96edd14773077a3d7d8d368ca6ffee1109f3a99f58bec9"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.41/rein-linux-arm64.tar.gz"
+      sha256 "d320c32901e7a4f73406aa641002cc675ce51faaa1229c1ba66a0b4e1d2c4a42"
     end
     on_intel do
-      url "https://github.com/rein-industries/rein/releases/download/v0.1.40/rein-linux-x64.tar.gz"
-      sha256 "e16cdf88bd5b201d3acf472c92fe5e8bc15a4dc2cdedc551315866c100891a5b"
+      url "https://github.com/rein-industries/rein/releases/download/v0.1.41/rein-linux-x64.tar.gz"
+      sha256 "e9c684b55dc00067fb4b0929cbab8b7c8e8a0ec38ee273e40c2e022ded9e92da"
     end
   end
 
